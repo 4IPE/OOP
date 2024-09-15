@@ -1,5 +1,3 @@
-package Lab4;
-
 import java.io.Serial;
 import java.util.Scanner;
 
@@ -7,6 +5,15 @@ class QuadraticEquation extends Equation {
     @Serial
     private static final long serialVersionUID = 1L;
     private double a, b, c;
+
+    @Override
+    public String toString() {
+        return "QuadraticEquation{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
+    }
 
     public QuadraticEquation() {
         this.a = 0;

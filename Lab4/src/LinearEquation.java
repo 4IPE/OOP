@@ -1,5 +1,3 @@
-package Lab4;
-
 import java.io.Serial;
 import java.util.Scanner;
 
@@ -8,6 +6,14 @@ class LinearEquation extends Equation {
     @Serial
     private static final long serialVersionUID = 1L;
     private double a, b;
+
+    @Override
+    public String toString() {
+        return "LinearEquation{" +
+                "a=" + a +
+                ", b=" + b +
+                '}';
+    }
 
     public LinearEquation() {
         this.a = 0;
